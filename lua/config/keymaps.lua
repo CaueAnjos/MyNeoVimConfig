@@ -5,5 +5,5 @@
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
-vim.keymap.set("n", "<C-c>", "<C-[")
-vim.keymap.set("v", "<C-c>", "<C-[")
+vim.keymap.set("n", "<C-c>", "<C-[>")
+vim.keymap.set("v", "<C-c>", "<C-[>")
