@@ -2,5 +2,7 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps hereby
 
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "zz<C-d>")
+vim.keymap.set("n", "<C-u>", "zz<C-u>")
+
+vim.keymap.set("n", "<leader>W", "<Plug>(DBUI_SaveQuery)")
