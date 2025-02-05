@@ -4,5 +4,3 @@
 
 vim.keymap.set("n", "<C-d>", "zz<C-d>")
 vim.keymap.set("n", "<C-u>", "zz<C-u>")
-
-vim.keymap.set("n", "<leader>W", "<Plug>(DBUI_SaveQuery)")
