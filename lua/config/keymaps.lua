@@ -4,3 +4,7 @@
 
 vim.keymap.set("n", "<C-d>", "zz<C-d>")
 vim.keymap.set("n", "<C-u>", "zz<C-u>")
+
+vim.keymap.set("n", "<leader>ut", function()
+  vim.cmd("TransparentToggle")
+end, { desc = "Toggle Transparent" })
