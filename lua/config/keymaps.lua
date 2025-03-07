@@ -5,3 +5,11 @@
 vim.keymap.set("n", "<leader>ut", function()
   vim.cmd("TransparentToggle")
 end, { desc = "Toggle Transparent" })
+
+vim.keymap.set("n", "ç", "'", { desc = "goto mark" })
+vim.keymap.set("n", "<leader>çx", function()
+  local mark = vim.fn.input("Delete mark: ")
+  if mark ~= "" then
+    vim.cmd("delmarks " .. mark)
+  end
+end, { desc = "Delete a specific mark" })
