@@ -2,10 +2,6 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps hereby
 
-vim.keymap.set("n", "<leader>ut", function()
-  vim.cmd("TransparentToggle")
-end, { desc = "Toggle Transparent" })
-
 vim.keymap.set("n", "ç", "'", { desc = "goto mark" })
 vim.keymap.set("n", "<leader>çx", function()
   local mark = vim.fn.input("Delete mark: ")
