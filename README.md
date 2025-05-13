@@ -2,8 +2,6 @@
 
 > A beautiful and powerful Neovim setup built on [LazyVim](https://github.com/LazyVim/LazyVim)
 
-![Neovim Screenshot](https://user-images.githubusercontent.com/placeholder/neovim-screenshot.png)
-
 ## ✨ Features
 
 This configuration is designed to transform Neovim into a full-featured IDE while maintaining its lightweight nature and blazing-fast performance.
