@@ -1,8 +1,8 @@
 return {
   {
     "xiyaowong/nvim-transparent",
-    lazy = false, -- load immediately
-    priority = 1000,
+    enabled = true,
+    lazy = true,
     opts = {
       enable = true,
       extra_groups = {
